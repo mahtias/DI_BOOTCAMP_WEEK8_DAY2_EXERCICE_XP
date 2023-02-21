@@ -54,7 +54,6 @@ SELECT * FROM items WHERE price >= 80 ORDER BY price DESC;
 SELECT last_name, first_name FROM customers ORDER BY first_name ASC LIMIT 3;
 
 
-
 /*Tous les noms de famille (pas d'autres colonnes !), dans l'ordre alphabétique inverse (ZA)*/
 
 SELECT last_name FROM customers ORDER BY last_name DESC;
